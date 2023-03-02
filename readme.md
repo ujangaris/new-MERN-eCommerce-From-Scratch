@@ -80,3 +80,14 @@
         - halaman product berdasarkan id: http://localhost:3000/product/1
         - halaman login: http://localhost:3000/login
         - halaman card: http://localhost:3000/cart
+
+## Product Details Screen
+
+    Todo:
+    1.  ProductScreen.js
+        - pasang use param dari react router-dom
+        - link go back untuk ke halaman home
+        - menampilkan image
+        - Menampilkan teks produk, rating, harga, dan deskripsi dalam kolom ketiga.
+        - Menampilkan harga produk, status produk, dan tombol untuk menambahkan produk
+          ke keranjang belanja
