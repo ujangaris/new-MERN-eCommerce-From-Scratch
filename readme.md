@@ -22,3 +22,21 @@
         - pasang link cdn fontawesome dari :  https://cdnjs.com/libraries/font-awesome/5.14.0
     8.  index.css
         - style
+
+## Home Screen Product Listing
+
+    Todo:
+    1.  products.js
+    2.  public/image
+    3.  component/Product.js
+        - rafc = react arow function component
+        - card image
+        - card body
+        - card ratting
+        - card price
+    4.  screens/HomeScreen.js
+        - import dan panggil Product
+    5.  App.js
+        - import dan panggil HomeScreen
+    6.  run server : nodemon index
+    7.  pengunjian pada browser: http://localhost:3000/
