@@ -55,3 +55,28 @@
           yang dirender di komponen Product.
     4.  index.css
         - mengatur posisi rating
+
+## Implement React Router
+
+    Todo:
+    1.  install react router dom:
+        npm i react-router-dom
+    2.  install react router bootstrap:
+        npm i react-router-bootsrtap
+        mengatur navigasi dengan component2 dari bootstrap
+        yang memungkinkan untuk tidak mere-load halaman ketika
+        halaman melakukan navigasi
+    3.  App.js
+        import dan pasang BrowserRouter,Routes, dan Route dari react router dom
+    4.  Header.js
+        import dan pasang Linkcontainer :agar halaman tidak reloat saat navigasi
+    5.  Product.js
+        import dan pasang Link :agar dapat menavigasi halaman berdasarkan id
+    6.  screens/ProductScreen.js
+        rafce = react arow function component
+    7.  App.js
+        import dan pasang ProductScreen
+    8.  pengujian pada browser
+        - halaman product berdasarkan id: http://localhost:3000/product/1
+        - halaman login: http://localhost:3000/login
+        - halaman card: http://localhost:3000/cart
