@@ -1,22 +1,23 @@
 // rafce
 import React from 'react'
 import { Card } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import Rating from './Rating'
 
 const Product = ({ product }) => {
   return (
     // card image
     <Card className='my-3 p-3 rounded'>
-      <a href={`/product/${product._id}`}>
+      <Link to={`/product/${product._id}`}>
         <Card.Img src={product.image} variant='top' />
-      </a>
+      </Link>
       {/* card body */}
       <Card.Body>
-        <a href={`/product/${product.id}`}>
+        <Link to={`/product/${product.id}`}>
           <Card.Title as='div'>
             <strong>{product.name}</strong>
           </Card.Title>
-        </a>
+        </Link>
         {/* card ratting */}
         <Card.Text as='div'>
           <Rating
