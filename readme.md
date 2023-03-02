@@ -40,3 +40,18 @@
         - import dan panggil HomeScreen
     6.  run server : nodemon index
     7.  pengunjian pada browser: http://localhost:3000/
+
+## Rating Component
+
+    Todo:
+    1.  Product.js
+        - card rating
+    2.  Rating.js
+        - rafce = react arow function component
+        - rating icon
+        - menampilkan props text hanya jika text bukan string kosong
+    3.  HomeScreen.js
+        - memberikan key : sebagai identitas unik untuk setiap elemen di dalam array
+          yang dirender di komponen Product.
+    4.  index.css
+        - mengatur posisi rating

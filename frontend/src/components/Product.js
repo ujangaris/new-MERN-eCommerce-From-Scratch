@@ -1,6 +1,7 @@
 // rafce
 import React from 'react'
 import { Card } from 'react-bootstrap'
+import Rating from './Rating'
 
 const Product = ({ product }) => {
   return (
@@ -18,11 +19,12 @@ const Product = ({ product }) => {
         </a>
         {/* card ratting */}
         <Card.Text as='div'>
-          <div className='my-3'>
-            {product.rating} from {product.numReviews} reviews
-          </div>
-          {/* card price */}
+          <Rating
+            value={product.rating}
+            text={`${product.numReviews} reviews`}
+          />
         </Card.Text>
+        {/* card price */}
         <Card.Text as='h3'>${product.price}</Card.Text>
       </Card.Body>
     </Card>
