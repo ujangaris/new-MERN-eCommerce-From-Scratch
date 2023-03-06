@@ -146,6 +146,18 @@
         - buka satu terminal pada route/ diluar backend dan frontend,
           kemudian jalankan node start
         - buka terminal ke dua cd frontend: npm start
-    6.  pengujian pada browser: 
+    6.  pengujian pada browser:
+        - http://localhost:3000/
+        - http://localhost:3000/product/<id>
+
+## Nodemon & Concurrently Setup
+
+    Todo:
+    1.  Install nodemon dan concurently
+        - npm install nodemon concurrently
+    2.  package.json
+        setup server and app dengan concurrently agar bisa dijalankan dengan satu perintah
+        perintahnya: npm run dev
+    3.  pengujian pada browser:
         - http://localhost:3000/
         - http://localhost:3000/product/<id>
