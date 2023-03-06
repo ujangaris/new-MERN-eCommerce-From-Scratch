@@ -112,3 +112,18 @@
             "start": "node backend/server"
         },
     8.  jalankan lagi servernya : npm start
+
+## Serving products - backend routes
+
+    Todo:
+    1.  start server: node serer
+    2.  server.js
+        - panggil products.js
+    3.  data/products.js
+        - rubah pada bagian export defaultnya
+    4.  enpoint path untuk browser:
+        - http://localhost:5000
+        - http://localhost:5000/api/products
+        - http://localhost:5000/api/products/<id>
+    5.  Noted: pada tahap ini , jika melakukan perubahan harus selalu me-restar server
+        agar perubahan : node start
