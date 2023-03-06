@@ -92,6 +92,8 @@
         - Menampilkan harga produk, status produk, dan tombol untuk menambahkan produk
           ke keranjang belanja
 
+# Serving & Fetching Data from Express
+
 ## Backend - Setup server
 
     Todo:
@@ -172,5 +174,19 @@
         - import dan pasang dotenv
         - modifikasi port
     4.  pengujian pada browser:
+        - http://localhost:3000/
+        - http://localhost:3000/product/<id>
+
+## Es modules in Node.js
+
+    Todo:
+    1.  package.json
+        - pasang:   "type": "module",
+    2.  data/products.js
+        - rubah menjadi export default
+    3.  server.js
+        - gunakan import dan from
+    4.  pengujian pada browser:
+        - npm run dev
         - http://localhost:3000/
         - http://localhost:3000/product/<id>
