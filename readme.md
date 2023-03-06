@@ -161,3 +161,16 @@
     3.  pengujian pada browser:
         - http://localhost:3000/
         - http://localhost:3000/product/<id>
+
+## Environment Variable
+
+    Todo:
+    1.  Install DotEnv
+        - npm i dotenv
+    2.  buat file .env di directory root
+    3.  server.js
+        - import dan pasang dotenv
+        - modifikasi port
+    4.  pengujian pada browser:
+        - http://localhost:3000/
+        - http://localhost:3000/product/<id>
