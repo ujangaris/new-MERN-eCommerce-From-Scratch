@@ -91,3 +91,24 @@
         - Menampilkan teks produk, rating, harga, dan deskripsi dalam kolom ketiga.
         - Menampilkan harga produk, status produk, dan tombol untuk menambahkan produk
           ke keranjang belanja
+
+## Backend - Setup server
+
+    Todo:
+    1.  diluar backend dan frontend (root folder)
+        - npm init:
+        - description: MERN shopping cart app
+        - endpoint : server.js
+
+    2.  npm install express
+    3.  cd backend: buat file server.js
+    4.  cd backend: buat folder data trus copy product.js dari frontend dan pasatekan kedalamnya
+    5.  server.js
+        - setup server dengan express
+    6.  jalankan server : node backend/server.js
+
+    7.  package.json
+        - "scripts": {
+            "start": "node backend/server"
+        },
+    8.  jalankan lagi servernya : npm start
