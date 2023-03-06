@@ -1,15 +1,27 @@
-import React from 'react'
+import axios from 'axios'
+import React, { useState, useEffect } from 'react'
 import { Button, Card, Col, Image, ListGroup, Row } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
 import { useParams } from 'react-router-dom'
 import Rating from '../components/Rating'
-import products from '../products'
 
 const ProductScreen = () => {
-  // pasang use param dari react router-dom
+  // // pasang use param dari react router-dom
   const { id } = useParams()
-  // mencari berdasarkan id
-  const product = products.find((p) => p._id === id)
+  // // mencari berdasarkan id
+  // const product = products.find((p) => p._id === id)
+  // deklarasi hooks
+  const [product, setProduct] = useState({})
+  // pasang useEffect
+  useEffect(() => {
+    const fetchProduct = async () => {
+      // endpoint berdasarkan id
+      const { data } = await axios.get(`/api/products/${id}`)
+
+      setProduct(data)
+    }
+    fetchProduct()
+  }, [])
   return (
     <>
       {/* link go back untuk ke halaman home */}

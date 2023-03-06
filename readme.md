@@ -127,3 +127,25 @@
         - http://localhost:5000/api/products/<id>
     5.  Noted: pada tahap ini , jika melakukan perubahan harus selalu me-restar server
         agar perubahan : node start
+
+## Fetching Product from React(useEffect)
+
+    Todo:
+    1.  pada terminal => cd frontend: npm install axios
+    2.  screens/HomeScreen.js
+        - hapus pemanggilan import products.js
+        - import dan pasang {useState, useEffect}
+        - import dan pasang axios
+    3.  pada frontend : package.json
+        - pasang proxy
+    4.  screens/ProductScreen.js
+        - hapus pemanggilan import products.js
+        - import dan pasang {useState, useEffect}
+        - import dan pasang axios
+    5.  Note jalankan server:
+        - buka satu terminal pada route/ diluar backend dan frontend,
+          kemudian jalankan node start
+        - buka terminal ke dua cd frontend: npm start
+    6.  pengujian pada browser: 
+        - http://localhost:3000/
+        - http://localhost:3000/product/<id>
