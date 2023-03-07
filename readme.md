@@ -240,3 +240,10 @@
     3.  db.js
         - pasang colors
     4.  jalankan server: npm run server
+
+## Modeling Our Data
+
+    Todo:
+    1.  models/userModel.js
+    2.  models/productModel.js
+    3.  models/orderModel.js
