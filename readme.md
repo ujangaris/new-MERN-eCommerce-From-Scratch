@@ -190,3 +190,41 @@
         - npm run dev
         - http://localhost:3000/
         - http://localhost:3000/product/<id>
+
+## Getting Started With MongoDB | 17. MongoDB Atlas & Compass Setup
+
+    Download mongoDB Compass, lalu buka mongoDB Compass
+    - pada terminal jalanakan mongodb-compass
+
+    pada browser buka mongoDB Cloud:
+    Create :
+        database : proshop
+        collections : products
+
+    kembali ke clauster,
+    klik connect lalu pilih connect using mongoDB Compass
+    pilih I have mongoDB Compass,
+    lalu copy connecting string :
+        mongodb+srv://ujang123:<password>@ujangarisandi.poe2b.mongodb.net/test
+    pastekan pada mongoDB compass di laptop kita,
+
+    jangan lupa ganti password-nya :
+        mongodb+srv://ujang123:admin0k8@ujangarisandi.poe2b.mongodb.net/test
+
+    Connect to aplikasi:
+    pada browser buka mongoDB Cloud
+    klik connect kembali
+    kemudian pilih Connect your application
+    coppy connection string:
+    mongodb+srv://ujang123:<password>@ujangarisandi.poe2b.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
+    buka file .env kemudian tambahkan source berikut:
+    MONGO_URI=mongodb+srv://ujang123:admin0k8@ujangarisandi.poe2b.mongodb.net/proshop?retryWrites=true&w=majority
+
+## Connect to The Database
+
+    Todo:
+    1.  pada directory root: npm i mongoose
+    2.  backend/config/db.js
+    3.  server.js
+        import dan panggil db.js
+    4.  jalankan server: npm run server
