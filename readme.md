@@ -270,3 +270,17 @@
         pada database/collection proshop akan ada data table yang tergenerate
         - products
         - users
+
+## Fetching Products From The Database
+
+    Todo:
+    1.  backend/routes/productRoutes.js
+        - cut code dari server.js pada bagian route enpoint kemudian pastekan dan modifikasi
+        - import dan pasang express, productModel, express-async-handler
+    2.  backend/server.js
+        - import dan pasang productRoutes.js
+    3.  install express async handler:
+        - npm i express-async-handler
+        - link : https://www.npmjs.com/package/express-async-handler
+    4.  jalankan server: npm run server
+    5.  pengujian pada browser: http://localhost:5000/api/products
