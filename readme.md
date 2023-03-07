@@ -228,3 +228,15 @@
     3.  server.js
         import dan panggil db.js
     4.  jalankan server: npm run server
+
+## Adding Color to the Console
+
+    Todo:
+    1.  install color:
+        https://www.npmjs.com/package/colors
+        npm i colors
+    2.  server.js
+        - import dan pasang colors
+    3.  db.js
+        - pasang colors
+    4.  jalankan server: npm run server
