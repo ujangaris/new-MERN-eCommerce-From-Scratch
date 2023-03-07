@@ -247,3 +247,10 @@
     1.  models/userModel.js
     2.  models/productModel.js
     3.  models/orderModel.js
+
+## Preparing sample data
+
+    Todo:
+    1.  npm i bcryptjs
+    2.  data/users.js
+        - import dan pasang bcryptjs pada password
