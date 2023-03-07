@@ -254,3 +254,19 @@
     1.  npm i bcryptjs
     2.  data/users.js
         - import dan pasang bcryptjs pada password
+
+## Data Seeder Script
+
+    Todo:
+    1.  backend/seeder.js
+    2.  package.json
+        - setup script
+    3.  jalankan seeder:
+        - import data: npm run data:import
+            jika berhasil akan ada tulisan pada terminal Data Imported!
+        - delete data : npm run data:destroy
+            jika berhasil akan ada tulisan pada terminal Data Destroyed!
+    4.  periksa pada database mongodb(mongocompas):
+        pada database/collection proshop akan ada data table yang tergenerate
+        - products
+        - users
