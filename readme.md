@@ -284,3 +284,17 @@
         - link : https://www.npmjs.com/package/express-async-handler
     4.  jalankan server: npm run server
     5.  pengujian pada browser: http://localhost:5000/api/products
+
+## Custome Error Handling
+
+    Todo:
+    1.  backend/middleware/errorMiddleware.js
+    2.  service.js
+        - import dan panggil notfound
+        - import dan panggil errorHandler
+    3.  backend/routes/productRoutes.js
+        - throw error untuk id yang tidak tersedia didatabase
+    4.  pengujian pada postman:
+        - notFound => url/endpoint tidak benar : {{URL}}/api/test
+        - errorHandler => id tidak benar : {{URL}}/api/products/1
+        - throw error => huruf belakang id diganti : {{URL}}/api/products/64079fe3a6d77ab2313f32bd
